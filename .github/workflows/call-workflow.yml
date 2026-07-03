@@ -5,6 +5,8 @@ on: push
 jobs:
  calling-greeting:
   uses: ./.github/workflows/reusable.yml
+  with:
+    name: "Vishal XXX"
   
  
  
